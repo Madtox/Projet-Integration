@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <style type="text/css">
-
+  <script src="https/maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 .menu2
 {
@@ -13,7 +13,7 @@
 }
 .Text
 {
-	color:grey;
+	color:#262b2f;
 }
 
 .navbar2 
@@ -28,7 +28,7 @@ body
 .Accueil
 {
 	padding-top:100px; 
-	background-color: gray;
+	background-color: grey;
 }
 
 #ampoule
@@ -38,7 +38,7 @@ body
 
 .text-center 
 {
-	color:gray;
+	color:grey;
 }
 
 #ColumnsI
@@ -53,6 +53,36 @@ body
 #ColumnsT
 {
 	text-align: left;
+}
+
+.ImageGreat
+{
+	background-color: grey;
+	background-image: url(images/b4.jpg);
+	background-repeat: no-repeat;
+	background-position:center center
+}
+
+#Join
+{
+	color:white;
+	background-color: #b93c3c;
+}
+
+#Fmail
+{
+	background-color:#2b252d
+
+}
+#Tag
+{
+	color:white;
+	background-color:#2b252d
+}
+
+.GreatButton
+{
+	background-o: 
 }
 </style>
 
@@ -91,10 +121,12 @@ body
 			</nav>
 		</div>
 		<div class="row"> <!-- IMAGE ACCUEIL -->
-			<div class="Accueil">
-				<div class="container">
-					<img src="images/slider-woman.png"/>
-					<img id="ampoule"src="images/slider-bubbles.png"/>
+			<div class="col-md-8 col-md-offset-2">
+				<div class="Accueil">
+					<div class="container">
+						<img src="images/slider-woman.png"/>
+						<img id="ampoule"src="images/slider-bubbles.png"/>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -247,14 +279,342 @@ body
 	<br> 
 	<br> 
 	<br>
+	<br>
+	<br>
 	<br> 
 	<div class="row"> <!-- CARROUSEL -->
 		<div class="text-center">
 			<div class="container">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  					<div class="carousel-inner" role="listbox">
+  						<div class="col-md-12">
+						    <div class="col-md-2">
+						      <img src="images/c1.png">
+						    </div>
+
+						    <div class="col-md-2">
+						      <img src="images/c2.png">
+						    </div>
+
+						    <div class="col-md-2">
+						      <img src="images/c3.png">
+						    </div>
+
+						    <div class="col-md-2">
+						      <img src="images/c4.png">
+						    </div>
+
+						    <div class="col-md-2">
+						      <img src="images/c5.png">
+						    </div>
+
+						    <div class="col-md-2">
+						      <img src="images/c6.png">
+						    </div>
+						</div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<div class="row"> <!-- OUR PROCESS ON CREATING AWESOME PROJECTS -->
+		<div class="text-center">
+			<div class="container">
+				<h1><strong style="color:black">Our process</strong> on creating awesome projects</h1>
+				<h3 style="color: red">******</h3>
+				<br>
+				<p>Curabitur blandit tempus porttitor. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				<br>
+				<br>
+					<div class="row ligne1">
+        				<div class="col-md-1" id="ColumnsI">
+          					<img src="images/icon-graph.png"/> 
+          				</div>
+          				<div class="col-md-4" id="ColumnsT">
+          					<strong style="color:black">Collect Ideas</strong>
+          					<p> Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a anta venenatis dapibus. <br>
+                                <ul>
+                                <br>
+                                    <li> Cras justo odio, dapibus ac facilisis eget quam.</li>
+                                    <li> Donec ullamcorper nulla non metus auctor fringitta.</li>
+                                </ul></p>
+       					</div>
+       					<div class="col-md-1"></div>
+        				<div class="col-md-1" id="ColumnsI">
+        					<img src="images/icon-board.png"/> 
+        				</div>
+          				<div class="col-md-4" id="ColumnsT">
+        					<strong style="color:black">Data Analysis</strong>
+         					<p>Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo <br>
+                                <ul>
+                                <br>
+                                    <li> Cras justo odio, dapibus ac facilisis eget quam.</li>
+                                    <li> Donec ullamcorper nulla non metus auctor fringitta.</li>
+                                </ul></p>
+        				</div>
+    				</div>
+					<br>
+					<br>
+    				<div class="row ligne2">
+        				<div class="col-md-1" id="ColumnsI">
+          					<img src="images/icon-heart.png"/> 
+          				</div>
+          				<div class="col-md-4" id="ColumnsT">
+          					<strong style="color:black">Magic Touch</strong>
+          					<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio. Dapibus ac facilisis in, egestas<br>
+                                <ul>
+                                <br>
+                                    <li> Cras justo odio, dapibus ac facilisis eget quam.</li>
+                                    <li> Donec ullamcorper nulla non metus auctor fringitta.</li>
+                                </ul></p>
+       					</div>
+       					<div class="col-md-1"></div>
+        				<div class="col-md-1" id="ColumnsI">
+        					<img src="images/icon-tv.png"/> 
+        				</div>
+          				<div class="col-md-4" id="ColumnsT">
+        					<strong style="color:black">Finalize Product</strong>
+         					<p>Curabitur blandit tempus porttitor. VEslibulum ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Duis mollis est non commodo luctus <br>
+                                <ul>
+                                <br>
+                                    <li> Cras justo odio, dapibus ac facilisis eget quam.</li>
+                                    <li> Donec ullamcorper nulla non metus auctor fringitta.</li>
+                                </ul></p>
+        				</div>
+    				</div>
+					<br>
+					<br>
+    		</div>
+			<br>
+			<br>
+    	</div>
+	</div>
+
+		<div class="row"> <!-- IMAGE LET'S MAKE SOMETHING GREAT TOGETHER -->
+			<div class="text-center">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="ImageGreat">
+						<div class="container">
+							<br>
+							<br>
+							<br>
+							<h1 style="color:black">Let's make something <strong >great</strong> together</h1>
+							<h3 style="color:black">******</h3>
+							<button class ="GreatButton" style="color:black">VIEW MORE WORK</button>
+							<button class ="GreatButton" style="color:black">GET IT TOUCH</button>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="row"> <!-- RECENT NEWS -->
+			<div class="text-center">
+				<h1><strong style="color:black">Recent</strong> news</h1>
+				<h3 style="color: red">******</h3>
+				<br>
+				<div class="col-md-12">
+					<div class="row News">
+          				<div class="col-md-4">
+          					<img src="images/b1.jpg" /> 
+          					<br>
+          					
+	          					<br> <strong style="color:black">Parturient Commodo Aenean</strong>
+	          					<br> 14 OCT 2014 | LOGO, PSD | <i class="fa fa-comment fa-1x"></i> 15
+	          					<br>
+	          					<br>
+	          					<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient.</p>
+	          					<br> <a style="color: grey">CONTINUE READING<i class="fa fa-arrow-right fa-1x"></i></a>
+	          				
+       					</div>
+       					
+        				<div class="col-md-4">
+          					<img src="images/b2.jpg" /> 
+          					<br>
+          					
+	          					<br> <strong style="color:black">Quam Mollis Ligula Nullam</strong>
+	          					<br> 12 NOV 2014 | BUSINESS CARD | <i class="fa fa-comment fa-1x"></i> 15
+	          					<br>
+	          					<br>
+	          					<p>Duis mollis, est non commodo luctusn nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus.</p>
+	          					<br> <a style="color: grey">CONTINUE READING<i class="fa fa-arrow-right fa-1x"></i></a>
+	          				
+       					</div>
+       					
+       					<div class="col-md-4">
+          					<img src="images/b3.jpg" /> 
+          					<br>
+          					
+	          					<br> <strong style="color:black">Tellus Bibendum Parturient</strong>
+	          					<br> 23 OCT 2014 | MOCKUP, PSD | <i class="fa fa-comment fa-1x"></i> 15
+	          					<br>
+	          					<br>
+	          					<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor.</p>
+	          					<br> <a style="color: grey">CONTINUE READING<i class="fa fa-arrow-right fa-1x"></i></a>
+          					
+       					</div>
+       				</div>
+       			</div>
+		 	</div>	
+		</div>
+    	<br>
+    	<br>
+    	<br>
+    	<br>
+    	<br>
+		<div class="row"> <!-- FOOTER NAVBAR 1 -->
+        		<nav class="navbar navbar-bottom" style="background-color: #262b2f">
+					<div class="text-center">
+						<div class="container">
+							<br>
+							<br>
+							<br>
+							<div class="row ligneT">
+			        				<div class="col-md-2" id="ColumnsI">
+			          					<h4 style="color:white"><strong>Popular Posts</strong></h4>
+			          				</div>
+			 						<div class="col-md-2"></div>
+			        				<div class="col-md-3" id="ColumnsI">
+			        					<h4 style="color:white"><strong>Subscribe to Our Newsletter</strong></h4> 
+			        				</div>
+			          				<div class="col-md-1"></div>
+			        				<div class="col-md-2" id="ColumnsI">
+			        					<h4 style="color:white"><strong>Tags</strong></h4>
+			        				</div>
+			    				</div>
+			    				<br>
 
 
+								<div class="row ligneF1">
+
+			        				<div class="col-md-1" id="ColumnsI">
+			          					<img src="images/a1.jpg"/> 
+			          				</div>
+			          				<div class="col-md-3" id="ColumnsT">
+			          					<strong style="color:white">Magna Mollis Ultricies</strong>
+			          					<br> 3TH OCT 2012 | 8 <i class="fa fa-comment fa-1x"></i>
+			       					</div>
+
+			        				<div class="col-md-4" id="ColumnsI">
+			        					<div class="input-group input-group-lg">
+								            <input id ="Fmail" type="text" class="form-control" placeholder="Enter email">
+								            <div class="input-group-btn">
+								           		<button type="button" id="Join" class="btn btn-default" >JOIN</button>
+                     							<ul class="dropdown-menu dropdown-menu-right">
+                     						</div>
+								        </div>							
+			        				</div>
+			        		
+			          				<div class="col-md-4" id="ColumnsT">
+			        					<button type="button" id="Tag" class="btn btn-default"><li>WEB</li></button>
+			        					<button type="button" id="Tag" class="btn btn-default"><li>PHOTOGRAPHY</li></button>
+			        					<button type="button" id="Tag" class="btn btn-default"><li>ILLUSTRATION</li></button>
+			        					<button type="button" id="Tag" class="btn btn-default"><li>FUN</li></button>
+			        					<button type="button" id="Tag" class="btn btn-default"><li>BLOG</li></button>
+			        					<button type="button" id="Tag" class="btn btn-default"><li>COMMERCIAL</li></button>
+                     							
+			       			 		</div>
+			    				</div>
+								<br>
+								<br>
 
 
+			    				<div class="row ligneF2">
+
+			        				<div class="col-md-1" id="ColumnsI">
+			          					<img src="images/a2.jpg"/> 
+			          				</div>
+			          				<div class="col-md-3" id="ColumnsT">
+			          					<strong style="color:white">Ornare Nullam Risus Tellus Elit Fusce Inceptos Etiam</strong>
+			          					<br> 28TH SEP 2012 | 5 <i class="fa fa-comment fa-1x"></i>
+			       					</div>
+			       
+			          				<div class="col-md-4" id="ColumnsT">
+			        					<h4 style="color:white"><strong>Get in Touch</strong></h4>
+			         					<p style="color:white">Fusce dapibus, tellus commodo, tortor mauris condimentum utellus.</p>
+			        				</div>
+
+			        				<div class="col-md-2"></div>
+			          				<div class="col-md-3" id="ColumnsT">
+			          					<h4 style="color:white"><strong>Categories</strong></h4>
+			        					<li style ="color: white"> Web Design (21) </li>
+			        					<li style ="color: white"> Photography (19) </li>
+			        					<li style ="color: white"> Graphic Design (16) </li>
+			        					<li style ="color: white"> Motion Video (23) </li>
+			          				</div>
+			          				
+
+
+			    				</div>
+								<br>
+								<br>
+								<div class="row ligneF3">
+			        			<div class="col-md-1" id="ColumnsI">
+			          					<img src="images/a3.jpg"/> 
+			          				</div>
+			          				<div class="col-md-3" id="ColumnsT">
+			          					<strong style="color:white">Euismod Nullam</strong>
+			          					<br> 15TH AUG 2012 | 9 <i class="fa fa-comment fa-1x"></i>
+			       					</div>
+
+			        				<div class="col-md-3" id="ColumnsI">
+			        					<p style="color:white"><span class="fa fa-map-marker"></span> Moonshite St. 14/05 Light City</p>
+			        					<p style="color:white"><span class="glyphicon glyphicon-earphone"></span> +00 (123) 456 78 90</p>
+			        					<p style="color: white"><i class="fa fa-envelope fa-1x" > first.last@email.com</i></p>
+			        				</div>
+			        				
+			       			 	</div>
+			    		</div>
+		    		</div>
+		    		<br>
+		    		<br>
+		    		<br>
+		    	</nav>
+		</div>
+				
+		<div class="row"> <!-- PREMIERE NAVBAR -->
+        		<nav class="navbar navbar-default navbar-bottom" style="background-color: #262b2f">
+	             	<div class="container">
+		                <p class="navbar-text navbar-left"><span class="fa fa-copyright fa-1x" aria-hidden="true"></span><a href="#" class="navbar-link" style="color:white"> 2015 Kwoon. All rights reserved. Theme by elemis.</a></p>
+
+			            <p class="navbar-text navbar-right fa fa-linkedin fa-1x" href="#" style="color:teal"></p>
+		                <p class="navbar-text navbar-right fa fa-pinterest-p" href="#" style="color:#b93c3c"></p>
+		                <p class="navbar-text navbar-right fa fa-facebook" href="#" style="color:#4e83bb"></p> 
+		                <p class="navbar-text navbar-right fa fa-twitter" href="#" style="color:#3d9afc"></p>
+		                <p class="navbar-text navbar-right fa fa-wifi" href="#" style="color:#b77e3b"></p>
+		               
+		                
+		                
+		            </div>
+				</nav>
+		</div>		
 
 
 
@@ -275,7 +635,7 @@ body
 						<div class="navbar navbar-right navbar-text">
 							<div class="text-right">
 								<div class="Text">
-									<p class=" fa fa-dribbble" href="#"></p>
+									<p class=" fa fa-linkedin" href="#"></p>
 		               				<p class=" fa fa-ellipsis-h" href="#"></p>
 	                  				<p class=" fa fa-twitter" href="#"></p>
 	                    			<p class=" fa fa-facebook" href="#"></p>
